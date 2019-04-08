@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
   <data name="Common_AuthenicationFailed" xml:space="preserve">
-    <value>Authentifikation fehlgeschlagen</value>
+    <value>Authentifikation information</value>
   </data>
   <!-- single line comment -->
   <data name="Common_Billable" xml:space="preserve">
-    <value>Verrechenbar</value>
+    <value>Billing Address</value>
   </data>
   <!-- multi
   line
   comment -->
   <data name="Common_BreakTime" xml:space="preserve">
-    <value>Pausen</value>
+    <value>Pause</value>
   </data>
 </root>

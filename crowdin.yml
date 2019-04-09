@@ -2,3 +2,4 @@ files:
   - source: /doc.resx
     translation: /%two_letters_code%/%original_file_name%
     dest: /doc.csv
+    schema: "identifier,source_phrase,translation,context,max_lengt"

@@ -1,5 +1,5 @@
 files:
   - source: /
-    dest : "/*csv",
+    dest : /*csv,
     translation: /%two_letters_code%/%original_file_name%
-    "type" : "csv"
+    type : csv

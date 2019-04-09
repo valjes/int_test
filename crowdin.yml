@@ -1,8 +1,8 @@
 files:
   - source: /
-    dest : /*resx,
+#    dest : /*resx,
     translation: /%two_letters_code%/%original_file_name%
-    type : csv
+#    type : csv
     first_line_contains_header : false,
     # Used only when uploading CSV file to define data columns mapping.
     scheme : identifier,source_phrase,translation,context,max_length

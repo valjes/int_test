@@ -1,12 +1,5 @@
 files:
   - source: /
+    dest : "/*csv",
     translation: /%two_letters_code%/%original_file_name%
-
-"files" : [
-  {
-    "source" : "/*.resx",
-    "dest" : "/*csv",
-    "translation" : "/conf/messages.%two_letters_code%",
-    "type" : "properties"
-  }
-]
+    "type" : "csv"

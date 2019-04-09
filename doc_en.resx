@@ -12,7 +12,7 @@
     
     Example:
     
-    ... ado.net/XML headers & schema ...
+    ... ado.net/XML headers &amp; schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
@@ -53,51 +53,52 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
+
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -116,97 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AverageNumberOfDaysBetweenOrderCycles" xml:space="preserve">
-    <value>average number of days between order cycles</value>
-  </data>
-  <data name="BufferProfile" xml:space="preserve">
-    <value>Buffer Profile</value>
-  </data>
-  <data name="BufferProfiles" xml:space="preserve">
-    <value>Buffer Profiles</value>
-  </data>
-  <data name="Description" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="GreenZoneBase" xml:space="preserve">
-    <value>Green Zone Base</value>
-  </data>
-  <data name="GreenZoneCalculationMethod" xml:space="preserve">
-    <value>Green Zone Calculation Method</value>
-  </data>
-  <data name="InventoryAlertLevel" xml:space="preserve">
-    <value>Inventory Alert Level</value>
-  </data>
-  <data name="LeadTime" xml:space="preserve">
-    <value>Lead Time</value>
-  </data>
-  <data name="Location" xml:space="preserve">
-    <value>Location</value>
-  </data>
-  <data name="NoDataToDisplay" xml:space="preserve">
-    <value>No data to display</value>
-  </data>
-  <data name="OrderCycleDays" xml:space="preserve">
-    <value>Order Cycle Days</value>
-  </data>
-  <data name="OrderSpikeHorizon" xml:space="preserve">
-    <value>Order Spike Horizon</value>
-  </data>
-  <data name="OrderSpikeThresholdLevel" xml:space="preserve">
-    <value>Order Spike Threshold Level</value>
-  </data>
-  <data name="PercentOfTopOfRed" xml:space="preserve">
-    <value>% of Top of Red</value>
-  </data>
-  <data name="PercentOfUsageOverLeadTime" xml:space="preserve">
-    <value>% of usage over lead time</value>
-  </data>
-  <data name="PercentRedZoneBase" xml:space="preserve">
-    <value>% Red Zone Base</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Profile</value>
-  </data>
-  <data name="ProfileDefinition" xml:space="preserve">
-    <value>Profile Definition</value>
-  </data>
-  <data name="ProfileSavedSuccessfully" xml:space="preserve">
-    <value>Profile saved successfully</value>
-  </data>
-  <data name="RedZoneBase" xml:space="preserve">
-    <value>Red Zone Base</value>
-  </data>
-  <data name="SafetyZone" xml:space="preserve">
-    <value>Safety Zone</value>
-  </data>
-  <data name="Save" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="SelectAll" xml:space="preserve">
-    <value>(Select All)</value>
-  </data>
-  <data name="SelectFilter" xml:space="preserve">
-    <value>Select Filter</value>
-  </data>
-  <data name="TheRPlusAlertIsEqualToTopOfYellow" xml:space="preserve">
-    <value>The R+ Alert is equal to Top of Yellow</value>
-  </data>
-  <data name="UnsupportedPart" xml:space="preserve">
-    <value>Buffer Details are not supported for this part type</value>
-  </data>
-  <data name="UseOrderCycleForGreenZone" xml:space="preserve">
-    <value>Use Order Cycle for green zone</value>
-  </data>
-  <data name="UsePartMinimumOrderQuantityForGreenZone" xml:space="preserve">
-    <value>Use part Minimum Order Quantity for green zone</value>
-  </data>
-  <data name="UsePercentOfUsageOverLeadTime" xml:space="preserve">
-    <value>Use % of usage over lead time</value>
-  </data>
-  <data name="UseSystemSpikeHorizonOf" xml:space="preserve">
-    <value>Use System Spike Horizon of</value>
-  </data>
-  <data name="YellowZoneBase" xml:space="preserve">
-    <value>Yellow Zone Base</value>
+  <data name="TotalQuantity" xml:space="preserve">
+    <value>Total Qty</value>
   </data>
 </root>

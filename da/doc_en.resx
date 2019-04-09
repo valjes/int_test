@@ -120,13 +120,13 @@
     <value>average number of days between order cycles</value>
   </data>
   <data name="BufferProfile" xml:space="preserve">
-    <value>Buffer Profile</value>
+    <value>Buffer profil</value>
   </data>
   <data name="BufferProfiles" xml:space="preserve">
     <value>Buffer Profiles</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Description</value>
+    <value>Beskrivelse</value>
   </data>
   <data name="GreenZoneBase" xml:space="preserve">
     <value>Green Zone Base</value>
@@ -135,16 +135,16 @@
     <value>Green Zone Calculation Method</value>
   </data>
   <data name="InventoryAlertLevel" xml:space="preserve">
-    <value>Inventory Alert Level</value>
+    <value>Lagerniveauet Alert</value>
   </data>
   <data name="LeadTime" xml:space="preserve">
-    <value>Lead Time</value>
+    <value>Tidsforløb</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>Location</value>
+    <value>Beliggenhed</value>
   </data>
   <data name="NoDataToDisplay" xml:space="preserve">
-    <value>No data to display</value>
+    <value>Ingen data at vise</value>
   </data>
   <data name="OrderCycleDays" xml:space="preserve">
     <value>Order Cycle Days</value>
@@ -165,7 +165,7 @@
     <value>% Red Zone Base</value>
   </data>
   <data name="Profile" xml:space="preserve">
-    <value>Profile</value>
+    <value>Profil</value>
   </data>
   <data name="ProfileDefinition" xml:space="preserve">
     <value>Profile Definition</value>
@@ -180,7 +180,7 @@
     <value>Safety Zone</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Save</value>
+    <value>Gem</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
     <value>(Select All)</value>

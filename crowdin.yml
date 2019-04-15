@@ -4,7 +4,6 @@ files:
     dest: /doc_en.csv
     scheme: identifier,source_or_translation
 
-files:
   - source: /DemandHistoryAnalysis.de-DE.resx
     translation: /%two_letters_code%/%original_file_name%
     dest: /DemandHistoryAnalysis.de-DE.csv

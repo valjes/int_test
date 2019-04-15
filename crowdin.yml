@@ -2,5 +2,4 @@ files:
   - source: /doc_en.resx
     dest: /doc_en.csv
     translation: /%two_letters_code%/%original_file_name%
-    scheme: identifier,source_or_translation,translation,max_length
-
+    scheme: 'identifier,source_or_translation,translation,max_length'

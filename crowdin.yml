@@ -6,4 +6,4 @@ files:
   - source: /DemandHistory.resx
     dest: /DemandHistory.csv
     translation: /%two_letters_code%/%original_file_name%
-    scheme: 'identifier,source_phrase,translation,context,max_length'
+    scheme: identifier,source_or_translation'

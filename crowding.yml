@@ -1,3 +1,5 @@
 files:
-  - source: /
+  - source: /DemandHistory2.resx
+    dest: /DemandHistory2.csv
     translation: /%file_name%.%two_letters_code%.%file_extension%
+    scheme: 'identifier,source_or_translation'

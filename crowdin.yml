@@ -3,10 +3,17 @@ files:
     dest: /doc_en.csv
     translation: /%two_letters_code%/%original_file_name%
     scheme: 'identifier,source_or_translation'
+
+  - source: /doc_en.resx
+    dest: /doc_en.csv
+    translation: /%two_letters_code%/%original_file_name%
+    scheme: 'identifier,source_or_translation'
+
   - source: /DemandHistory.resx
     dest: /DemandHistory.csv
     translation: /%two_letters_code%/%original_file_name%
     scheme: identifier,source_or_translation'
+    
   - source: /DemandHistory2.resx
     dest: /DemandHistory2.csv
     translation: /%two_letters_code%/%original_file_name%

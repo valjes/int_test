@@ -1,5 +1,5 @@
 files:
-    source: /DemandHistory2.resx
+  - source: /DemandHistory2.resx
     translation: /%file_name%.%locale%.%file_extension%
     dest: /DemandHistory2.csv
     type: csv

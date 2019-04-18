@@ -1,11 +1,4 @@
 files:
-  - source: /DemandHistory2.resx
-    translation: /%file_name%.%locale%.%file_extension%
-    dest: /DemandHistory2.csv
-    type: csv
-    scheme: identifier,source_or_translation
-    translation_replace: 
-      .en-US:
   - source: /DemandHistory.resx
     translation: /%file_name%.%locale%.%file_extension%
     dest: /DemandHistory.csv
@@ -13,6 +6,7 @@ files:
     scheme: identifier,source_or_translation
     translation_replace: 
       .en-US:
+      
   - source: /doc.resx
     translation: /%file_name%.%locale%.%file_extension%
     dest: /doc.csv

@@ -3,6 +3,6 @@ files:
     translation: /%file_name%.%locale%.%file_extension%
     dest: /DemandHistory.csv
     type: csv
-    scheme: identifier,source_or_translation
-    translation_replace: 
-      .en-US:
+    scheme: 'identifier,source_or_translation'
+    translation_replace: &ref_.en-US
+      .en-US: 

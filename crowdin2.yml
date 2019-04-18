@@ -26,6 +26,6 @@ files:
     translation: /%file_name%.%locale%.%file_extension%
     dest: /doc_en.csv
     type: csv
-    scheme: 'identifier,source_or_translation'
+    scheme: 'identifier,source_or_translation,maxlengh'
     translation_replace: 
           .en-US.

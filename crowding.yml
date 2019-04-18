@@ -1,13 +1,23 @@
 files:
-  - source: /DemandHistory2.resx
+    source: /DemandHistory2.resx
+    translation: /%file_name%.%locale%.%file_extension%
     dest: /DemandHistory2.csv
-    translation: /%file_name%.%two_letters_code%.%file_extension%
-    scheme: 'identifier,source_or_translation'
-  - source: /DemandHistory.resx
+    type: csv
+    scheme: identifier,source_or_translation
+    translation_replace: 
+      .en-US:
+    source: /DemandHistory.resx
+    translation: /%file_name%.%locale%.%file_extension%
     dest: /DemandHistory.csv
-    translation: /%file_name%.%two_letters_code%.%file_extension%
-    scheme: 'identifier,source_or_translation'
-  - source: /doc.resx
+    type: csv
+    scheme: identifier,source_or_translation
+    translation_replace: 
+      .en-US:
+    source: /doc.resx
+    translation: /%file_name%.%locale%.%file_extension%
     dest: /doc.csv
-    translation: /%file_name%.%two_letters_code%.%file_extension%
-    scheme: 'identifier,source_or_translation'
+    type: csv
+    scheme: identifier,source_or_translation
+    translation_replace: 
+      .en-US:
+ 

@@ -6,14 +6,14 @@ files:
     scheme: identifier,source_or_translation
     translation_replace: 
       .en-US:
-    source: /DemandHistory.resx
+  - source: /DemandHistory.resx
     translation: /%file_name%.%locale%.%file_extension%
     dest: /DemandHistory.csv
     type: csv
     scheme: identifier,source_or_translation
     translation_replace: 
       .en-US:
-    source: /doc.resx
+  - source: /doc.resx
     translation: /%file_name%.%locale%.%file_extension%
     dest: /doc.csv
     type: csv

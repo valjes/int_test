@@ -12,3 +12,11 @@ files:
     type: csv
     scheme: 'identifier,source_or_translation'
     translation_replace: *ref_.en-US
+    
+  - source: /doc.resx
+    translation: /%file_name%.%locale%.%file_extension%
+    dest: /doc.csv
+    type: csv
+    scheme: 'identifier,source_or_translation'
+    translation_replace: 
+          .en-US

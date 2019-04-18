@@ -20,3 +20,12 @@ files:
     scheme: 'identifier,source_or_translation'
     translation_replace: 
           .en-US
+
+    
+  - source: /doc_en.resx
+    translation: /%file_name%.%locale%.%file_extension%
+    dest: /doc_en.csv
+    type: csv
+    scheme: 'identifier,source_or_translation'
+    translation_replace: 
+          .en-US.
